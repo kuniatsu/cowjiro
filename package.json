@@ -1,0 +1,24 @@
+{
+  "name": "jiro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "uma": "clear && echo \"^__^\n(oo)\\_______\n(__)\\       )\\/\\ \n　　||----w |   \n　　||     || \n\n\"",
+    "clear":"clear",
+    "jiro": "echo \"    ???? \n   ??????   \n  ???????? \n  ?:?@@@?? \n ?::?@@@@??\nゑゑゑゑゑゑゑ\n＼         ／\n  ＼＿＿＿／\n   |＿＿＿|\n\n\n\n\n\n\n\n\n\"",
+    "cowjiro_":"clear && echo \"    ???? \n  ????????  ^__^\n  ?:?@@@??  (oo)\\_______ \n ?::?@@@@?? (__)\\       )\\/\\ \nゑゑゑゑゑゑゑ  ||----w |  \n＼         ／   ||     || \n  ＼＿＿＿／   \n\"",
+    "cowjiro_mashi":"clear && echo \"    ???? \n   ??????   \n  ????????  ^__^\n  ?:?@@@??  (oo)\\_______ \n ?::?@@@@?? (__)\\       )\\/\\ \nゑゑゑゑゑゑゑ  ||----w |  \n＼         ／   ||     || \n  ＼＿＿＿／   \n\"",
+    "cowjiro":"echo \"お客さんトッピングどうしますか？\" && read MASHI && if [[ $MASHI == \"ヤサイマシ\" ]]; then npm run cowjiro_mashi;else npm run cowjiro_; fi",
+    "end":""
+  },
+  "repository": {
+    "type": "git",
+    "url": "q"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cowsay": "^1.1.9"
+  }
+}
